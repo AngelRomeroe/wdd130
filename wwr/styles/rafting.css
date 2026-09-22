@@ -1,7 +1,7 @@
 :root {
     --primary-color: #34ac3496;
     /* somekind of green */
-    --secondary-color: #f4a261;
+    --secondary-color: #f4a3616d;
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -43,7 +43,10 @@ article {
     padding: 8px;
 }
 
-article {}
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
 
 h1 {
     position: absolute;
