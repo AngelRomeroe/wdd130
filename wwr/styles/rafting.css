@@ -7,6 +7,7 @@
     /* dark slate blue */
     --accent2-color: #f9f9f9;
     /* white */
+    --accent3-color: hsla(197, 57%, 28%, 0.706);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -36,7 +37,7 @@ header {
     max-width: 840px;
     margin: auto;
     padding: 10px;
-    background-color: hsla(197, 57%, 28%, 0.706);
+    background-color:var(--accent3-color);
 }
 
 nav ul {
