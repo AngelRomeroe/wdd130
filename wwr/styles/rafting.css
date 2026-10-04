@@ -3,11 +3,11 @@
     /* somekind of green */
     --secondary-color: #f4a3616d;
     /* warm sand */
-    --accent1-color: #264653;
+    --accent1-color: #264653ad;
     /* dark slate blue */
     --accent2-color: #f9f9f9;
     /* white */
-    --accent3-color: hsla(197, 57%, 28%, 0.706);
+    --accent3-color: hsla(197, 57%, 28%, 0.536);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -67,18 +67,6 @@ nav a {
     color: var(--accent2-color);
     text-decoration: none;
     font-size: 1.5rem;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-    /* white text – make sure there is enough contrast with the background-color */
 }
 
 /* class selectors */
