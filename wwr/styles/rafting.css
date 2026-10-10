@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #195919bb;
+    --primary-color: #195919;
     /* somekind of green */
     --secondary-color: #f4a3616d;
     /* warm sand */
-    --accent1-color: #264653ad;
+    --accent1-color: #000033;
     /* dark slate blue */
-    --accent2-color: #f9f9f9;
+    --accent2-color: #000000;
     /* white */
-    --accent3-color: hsla(197, 57%, 28%, 0.536);
+    --accent3-color: hsl(0, 0%, 71%);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -180,7 +180,7 @@ nav a {
 /* footer */
 
 footer p {
-    color: #fff;
+    color:;
 }
 
 footer img {
@@ -197,8 +197,8 @@ footer {
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent3-color);
+    color: var(--accent2-color);
 }
 
 /* This part is for the contact.html*/
